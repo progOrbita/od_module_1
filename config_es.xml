@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <module>
     <name>od_module_1</name>
-    <displayName><![CDATA[Mensaje &quot;M&oacute;dulo 1&quot;]]></displayName>
+    <displayName><![CDATA[M&oacute;dulo 1]]></displayName>
     <version><![CDATA[1.0.0]]></version>
     <description><![CDATA[Muestra un mensaje en todas las p&aacute;ginas menos el home]]></description>
     <author><![CDATA[Malva P&eacute;rez]]></author>
