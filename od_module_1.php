@@ -29,8 +29,11 @@ class Od_module_1 extends Module implements WidgetInterface
       return parent::install()
          && $this->registerHook('displayLeftColumn')
          && $this->registerHook('displayOrderConfirmation')
-         && $this->registerHook('displayDetail')
-         && $this->registerHook('displayProductAdditionalInfo');
+         && $this->registerHook('displayOrderDetail')
+         && $this->registerHook('displayProductAdditionalInfo')
+         && $this->registerHook('displayCustomerAccountForm')
+         && $this->registerHook('displayCustomerAccount')
+         && $this->registerHook('displayCustomerLoginFormAfter');
    }
 
    public function hookDisplayHome()
