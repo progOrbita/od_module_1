@@ -33,6 +33,7 @@ class Od_module_1 extends Module
       if ($this->context->controller->php_self == 'index')
          return;
 
+         
       $this->context->smarty->assign($this->name . '_message', 'Módulo 1');
       return $this->fetch('module:od_module_1/views/templates/front/message.tpl');
    }
